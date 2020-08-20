@@ -1,0 +1,11 @@
+SELECT gameID, teamA, teamB, teamAScore, teamBScore, DATE_FORMAT(gameDate, "%m/%d/%Y %H:%i") as gameDate, category FROM games
+
+
+INSERT INTO comments set (comment, gameID, commentTime, tags) VALUES 
+        ('test', 2, '2020-7-21 8:19:24', 'hi')
+
+
+          comment: 'test',
+  gameID: 2,
+  tags: 'hi',
+  commentTime: '2020-7-21 8:19:24'
